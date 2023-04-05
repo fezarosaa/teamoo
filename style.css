@@ -1,11 +1,14 @@
 * {
     box-sizing: border-box;
     font-family: "Josefin Sans", san;
+    background-color: #000;
+    overflow: hidden;
   }
 .heart { 
-   background-color: #000;
-    margin: 0;
+    background-color: #000;
     overflow: hidden;
+    width: 100%;
+    height: 100%;
     background-repeat: no-repeat;
     display: flex;
     z-index: -1;
