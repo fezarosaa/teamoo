@@ -2,18 +2,14 @@
     box-sizing: border-box;
     font-family: "Josefin Sans", san;
     overflow: hidden;
+    background-color: #000;
   }
 .heart { 
-    background-color: #000;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
+    margin: 0;
     background-repeat: no-repeat;
-    display: flex;
     z-index: -1;
   }
-.teamo{
-  background-color: transparent;
+p{
 	position: absolute;
 	top: 0px;
 	z-index: 1;
@@ -23,5 +19,6 @@
   display: grid;;
   place-items: center;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 35px;
+  background-color: transparent;
 }
