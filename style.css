@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", san;
+  }
+.heart { 
+   background-color: #000;
+    margin: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: -1;
+  }
+.teamo{
+  background-color: transparent;
+	position: absolute;
+	top: 0px;
+	z-index: 1;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  display: grid;;
+  place-items: center;
+  font-weight: bold;
+  font-size: calc(100% + 5px);
+}
